@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# scanr.data
+ 
+<!-- badges: start -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<!-- badges: end -->
+
+The goal of scanr.data is to bring utility functions for dealing with scanr data, within R. 
+
+Features includes all the necessary function to begin data-science within R, from the scanr data : 
+
+From a folder with several .jsonl or .jsonl.gz files : 
+
+1. *convert each .jsonl or .jsonl.gz files to a .parquet database file*
+2. *unnest the 'denormalized' .json structure, i.e. adding nested data.frame and list as columns of the main data.frame* 
+3. *deal with all the merging*
+
+[TODO]
+
+## Installation
+
+You can install the development version of scanr.data from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("Clement-LVD/scanr.data")
+```
+
+## Examples
+
+TODO
+
+```{r example}
+# library(scanr.data)
+## basic example code
+```
+ 

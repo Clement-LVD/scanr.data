@@ -7,7 +7,7 @@
 #' 
 #' @examples
 #' \dontrun{
-#'  convert_json_to_parquet_multithread( 'C:/Users/claverdet/Documents/data/scanr/patents_denormalized.jsonl.gz')
+#'  convert_json_to_parquet_multithread( '~/Documents/data/scanr/patents_denormalized.jsonl.gz')
 #'  # 1. import a classical r data.frame with arrow (arrow_list)
 #' # orgs <- arrow::read_parquet("organizations.parquet")
 #' 

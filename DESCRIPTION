@@ -1,9 +1,10 @@
 Package: scanr.data
 Title: Import And Merge Json SCANR Dump
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R: c(
     person("Clément", "Laverdet", , "clementlvd@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4466-3394"))
-    person( "Université Paris-Saclay", role = "fnd" )
+    , person( "Université Paris-Saclay", role = "fnd" )
+            )
 Description: Import And Merge Json SCANR Dump and transform them to .parquet files.
 License: MIT + file LICENSE
 Encoding: UTF-8

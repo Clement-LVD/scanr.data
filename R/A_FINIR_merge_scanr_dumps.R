@@ -1,5 +1,5 @@
 merge_scanr_dumps <- function(
-  main_folder = "C:/Users/claverdet/Documents/data/scanr/" 
+  main_folder = "~/Documents/data/scanr/" 
 ){
 
   files_to_import = data.frame(path = file.path(main_folder, "organizations_denormalized.parquet" ) )

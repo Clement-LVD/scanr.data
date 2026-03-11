@@ -7,7 +7,7 @@
 #' 
 #' }
 list_nested_scanr_structure <- function(
-  parquet_file = "C:/Users/claverdet/Documents/data/scanr/organizations_denormalized.parquet"
+  parquet_file = "~/Documents/data/scanr/organizations_denormalized.parquet"
 ) {
   
 con <- establish_connection_with_DBI()

@@ -7,7 +7,7 @@
 #' 
 #' @examples
 #' \dontrun{
-#'  convert_json_to_parquet( 'C:/Users/claverdet/Documents/data/scanr/patents_denormalized.jsonl.gz')
+#'  convert_json_to_parquet( '~/Documents/data/scanr/patents_denormalized.jsonl.gz')
 #'  # 1. import a classical r data.frame with arrow (arrow_list)
 #' # orgs <- arrow::read_parquet("organizations.parquet")
 #' 
@@ -17,7 +17,7 @@
 #' 
 #' @export
 #' 
-convert_json_to_parquet <- function(json_file= 'C:/Users/claverdet/Documents/data/scanr/organizations_denormalized.jsonl.gz' 
+convert_json_to_parquet <- function(json_file= '~/Documents/data/scanr/organizations_denormalized.jsonl.gz' 
 , chunk_size = 20000
 , .verbose = TRUE) {
 
